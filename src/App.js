@@ -17,21 +17,54 @@ export default class App extends Component {
     this.setState({ selectedPlan: plan });
   };
 
+  closeModal = () => {
+    document.getElementById("submitModal").style.cssText =
+       "display:None; top:20%; z-index: 999;";
+    document.getElementById("overlay").style.display = "none";    
+  }
+
+  handleSubmit = () => {
+    let dealSource = [];
+    let source = [];
+
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let phone = document.getElementById("phone").value;
+    let leadsInAMonth = document.getElementById("leadsInAMonth").value;
+    let crmLeads = document.getElementById("crmLeads").value;
+    let crm = document.getElementById("crm").value;
+    let noOfAgent = document.getElementById("noOfAgent").value;
+
+
+    for(let a of document.querySelector(".dealSource").children){
+      a.checked && dealSource.push(a.value)
+    }
+    for(let a of document.querySelector(".source").children){
+      a.checked && source.push(a.value)
+    }
+
+    alert(JSON.stringify({name, email, phone, leadsInAMonth, crmLeads, crm, noOfAgent, dealSource, source}));
+    this.closeModal();
+  }
+
   contactUs = (plan) => {
-    // document.getElementById("submitModal").style.cssText =
-    //   "display:block; top:20%; z-index: 999;";
+     document.getElementById("submitModal").style.cssText =
+       "display:block; top:20%; z-index: 999;";
     // document.getElementById("overlay").style.cssText =
     //   "overflow: hidden !important;";
     let text = "";
     if(plan){text = plan.plan}
     else{ text = "Enterprise"}
     this.setState({planSelectedText: text})
+    document.getElementById("overlay").style.display = "block";
   };
 
   render() {
     const { plans, selectedPlan, plansData, planSelectedText } = this.state;
     const currentPlan = plansData[selectedPlan];
     return (
+      <>
+      <div id="overlay"></div>
       <div id="main" className="App txtAlignCenter ">
         <div className="row">
           {plans.map((plan) => (
@@ -53,9 +86,11 @@ export default class App extends Component {
           ))}
           <EnterpriseCard handleClick={this.contactUs} />
         </div>
-        <div id="submitModal" className="modal">
+      </div>
+
+      <div id="submitModal" className="modal">
           <div class="modal-content">
-            <h4>Get Started with SquadVoice</h4>
+            <h5>Get Started with SquadVoice</h5> <span className="modal-close closeButton" onClick={this.closeModal}>X</span>
             <hr />
             <div className="planSelected modalText">Plan Selected: {planSelectedText}</div>            <div className="modalText">Name</div>
             <input id="name" type="text" />
@@ -106,12 +141,13 @@ export default class App extends Component {
             </div>
           </div>
           <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">
-              Agree
-            </a>
+            <button onClick={this.handleSubmit} class="btnOrange modal-close waves-effect waves-green btn-flat">
+              Submit
+            </button>
           </div>
         </div>
-      </div>
+
+      </>
     );
   }
 }
