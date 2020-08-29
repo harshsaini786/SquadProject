@@ -89,13 +89,13 @@ export default class App extends Component {
       </div>
 
       <div id="submitModal" className="modal">
-          <div class="modal-content">
+          <div className="modal-content">
             <h5>Get Started with SquadVoice</h5> <span className="modal-close closeButton" onClick={this.closeModal}>X</span>
             <hr />
             <div className="planSelected modalText">Plan Selected: {planSelectedText}</div>            <div className="modalText">Name</div>
             <input id="name" type="text" />
             <div className="row">
-              <div class="col s5 m5 l5 modalText">Email</div>
+              <div className="col s5 m5 l5 modalText">Email</div>
               <div className="col s5 m5 l5 modalText marginLeft">Phone No.</div>
             </div>
             <div className="row">
@@ -103,7 +103,7 @@ export default class App extends Component {
               <input id="phone" className="col s5 m5 l5 marginLeft" type="text" />
             </div>
             <div className="row">
-              <div class="col s5 m5 l5 modalText">
+              <div className="col s5 m5 l5 modalText">
                 No. of leads you generated in a month
               </div>
               <div className="col s5 m5 l5 modalText marginLeft">
@@ -115,7 +115,7 @@ export default class App extends Component {
               <input id="crmLeads" className="col s5 m5 l5 marginLeft" type="number" />
             </div>
             <div className="row">
-              <div class="col s5 m5 l5 modalText">Which CRM do you use?</div>
+              <div className="col s5 m5 l5 modalText">Which CRM do you use?</div>
               <div className="col s5 m5 l5 modalText marginLeft">
                 No. of Agents
               </div>
@@ -140,8 +140,8 @@ export default class App extends Component {
               <input type="checkbox" value="Real Closers"/> Real Closers
             </div>
           </div>
-          <div class="modal-footer">
-            <button onClick={this.handleSubmit} class="btnOrange modal-close waves-effect waves-green btn-flat">
+          <div className="modal-footer">
+            <button onClick={this.handleSubmit} className="btnOrange modal-close waves-effect waves-green btn-flat">
               Submit
             </button>
           </div>
