@@ -7,7 +7,7 @@ export default function EnterpriseCard({ handleClick }) {
         <div>&nbsp;</div>
       <div className="plansButtons">Enterprise</div>
       <div className="enterpriseText">
-        Want more than 80 qualifies leads each month?
+        Want more than 80 qualified leads each month?
       </div>
       <div onClick={() => handleClick()} className="actionButtonOrange">
         Get In Touch
