@@ -1,4 +1,8 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
+width: 100%;
+margin: 20px 20%;
+}
+
+.plansMenu{
+  display: flex;
 }
