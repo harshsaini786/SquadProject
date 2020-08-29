@@ -1,8 +1,78 @@
-.App {
-width: 100%;
-margin: 20px 20%;
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+  background-color: #5a6f90;
 }
 
-.plansMenu{
-  display: flex;
+.parent {
+  width: 100%;
+  line-height: 2;
+}
+
+.App {
+  width: 80%;
+  margin: 20px auto !important;
+}
+@media only screen and (min-width: 600px) {
+  .defaultWidth {
+    width: 20% !important;
+  }
+}
+
+.txtAlignCenter {
+  text-align: center;
+}
+
+.fontSize {
+  font-size: 13pt;
+}
+
+.plansButtons {
+  background-color: #5a6f90;
+  color: white;
+  font-size: 13pt;
+  padding: 10px !important;
+  height: auto;
+}
+
+.greyedColor {
+  background-color: lightgray;
+  color: black;
+}
+
+.hLineStyle {
+  width: 80%;
+  border-style: dashed;
+  color: rgb(179, 179, 179);
+}
+
+.btn {
+  font-size: 13pt;
+  padding: 15px !important;
+  height: auto;
+  -webkit-box-shadow: "";
+  box-shadow: "";
+  margin-left: -1px !important;
+}
+
+.actionButtonOrange {
+  border-color: #ef5a36;
+  color: #ef5a36;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  padding: 10px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.actionButtonOrange:hover {
+  background-color: #ef5a36;
+  color: white;
+}
+
+.perLeadPrice {
+  font-size: 29pt;
+  font-weight: bold;
+  color: #36455c;
 }

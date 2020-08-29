@@ -8,19 +8,20 @@ export default class App extends Component {
   state = {
     plansData: jsonData,
     plans: Object.keys(jsonData),
-    currentPlan: jsonData["$300K-$400K"]
+    selectedPlan: "$300K-$400K"
   };
 
   render() {
-    const { plans, currentPlan } = this.state;
+    const { plans, selectedPlan, plansData } = this.state;
+    const currentPlan = plansData[selectedPlan];
     return (
-      <div className="App">
-        <div className="plansMenu">
+      <div className="App txtAlignCenter ">
+        <div className="row">
           {plans.map((plan) => (
-            <PlansHeader plan={plan} />
+            <PlansHeader plan={plan} active={plan === selectedPlan} />
           ))}
         </div>
-        <div className="plansMenu">
+        <div className="row">
           {currentPlan.map((data) => (
             <PlansCard data={data} />
           ))}
