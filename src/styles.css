@@ -4,6 +4,27 @@
   background-color: #5a6f90;
 }
 
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: static;
+  opacity: 1;
+  pointer-events: unset !important;
+}
+
+.planSelected {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+input[type="checkbox"] {
+  margin-left: 8px;
+}
+
+div,
+span {
+  cursor: default;
+}
+
 .parent {
   width: 100%;
   line-height: 2;
@@ -13,7 +34,7 @@
   width: 80%;
   margin: 20px auto !important;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
   .defaultWidth {
     width: 20% !important;
   }
@@ -25,6 +46,14 @@
 
 .fontSize {
   font-size: 13pt;
+}
+
+.modalText {
+  text-align: left;
+}
+
+.marginLeft {
+  margin-left: 15% !important;
 }
 
 .plansButtons {
@@ -69,10 +98,17 @@
 .actionButtonOrange:hover {
   background-color: #ef5a36;
   color: white;
+  cursor: pointer;
 }
 
 .perLeadPrice {
   font-size: 29pt;
   font-weight: bold;
   color: #36455c;
+}
+
+.enterpriseText {
+  height: 314.5px;
+  padding: 70px 21px;
+  font-size: 15pt;
 }

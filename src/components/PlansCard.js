@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles.css";
 
-export default function PlansCard({ data }) {
+export default function PlansCard({ data, handleClick }) {
   return (
     <div className="row col s12 m6 l3">
       <div className="plansButtons">{data.plan}</div>
@@ -15,7 +15,9 @@ export default function PlansCard({ data }) {
       <div>{data.totalPlatformPrice}</div>
       <div className="plansButtons">{data.finalPackagePrice}/mo</div>
 
-      <div className="actionButtonOrange">Start Your Trial</div>
+      <div onClick={() => handleClick(data)} className="actionButtonOrange">
+        Start Your Trial
+      </div>
     </div>
   );
 }

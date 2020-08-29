@@ -1,172 +1,132 @@
 {
   "$100K-$200K": [
-     {
-        "plan": "Qualified 20",
-        "leadsPerMonth": 20,
-        "pricePerLiveTransfer": "$69",
-        "totalQualifiedLeadPrice": "$1,380",
-        "totalPlatformPrice": "$299",
-        "finalPackagePrice": "$1,679"
-     },
-     {
-        "plan": "Qualified 40",
-        "leadsPerMonth": 40,
-        "pricePerLiveTransfer": "$67",
-        "totalQualifiedLeadPrice": "$2,680",
-        "totalPlatformPrice": "$599",
-        "finalPackagePrice": "$3,279"
-     },
-     {
-        "plan": "Qualified 60",
-        "leadsPerMonth": 60,
-        "pricePerLiveTransfer": "$65",
-        "totalQualifiedLeadPrice": "$3,900",
-        "totalPlatformPrice": "$699",
-        "finalPackagePrice": "$4,599"
-     },
-     {
-        "plan": "Qualified 80",
-        "leadsPerMonth": 80,
-        "pricePerLiveTransfer": "$63",
-        "totalQualifiedLeadPrice": "$5,040",
-        "totalPlatformPrice": "$799",
-        "finalPackagePrice": "$5,839"
-     }
+    {
+      "plan": "Qualified 20",
+      "leadsPerMonth": 20,
+      "pricePerLiveTransfer": "$69",
+      "totalQualifiedLeadPrice": "$1,380",
+      "totalPlatformPrice": "$299",
+      "finalPackagePrice": "$1,679"
+    },
+    {
+      "plan": "Qualified 40",
+      "leadsPerMonth": 40,
+      "pricePerLiveTransfer": "$67",
+      "totalQualifiedLeadPrice": "$2,680",
+      "totalPlatformPrice": "$599",
+      "finalPackagePrice": "$3,279"
+    },
+    {
+      "plan": "Qualified 80",
+      "leadsPerMonth": 80,
+      "pricePerLiveTransfer": "$63",
+      "totalQualifiedLeadPrice": "$5,040",
+      "totalPlatformPrice": "$799",
+      "finalPackagePrice": "$5,839"
+    }
   ],
   "$200K-$300K": [
-     {
-        "plan": "Qualified 20",
-        "leadsPerMonth": 20,
-        "pricePerLiveTransfer": "$79",
-        "totalQualifiedLeadPrice": "$1,580",
-        "totalPlatformPrice": "$299",
-        "finalPackagePrice": "$1,879"
-     },
-     {
-        "plan": "Qualified 40",
-        "leadsPerMonth": 40,
-        "pricePerLiveTransfer": "$77",
-        "totalQualifiedLeadPrice": "$3,080",
-        "totalPlatformPrice": "$599",
-        "finalPackagePrice": "$3,679"
-     },
-     {
-        "plan": "Qualified 60",
-        "leadsPerMonth": 60,
-        "pricePerLiveTransfer": "$74",
-        "totalQualifiedLeadPrice": "$4,440",
-        "totalPlatformPrice": "$699",
-        "finalPackagePrice": "$5,139"
-     },
-     {
-        "plan": "Qualified 80",
-        "leadsPerMonth": 80,
-        "pricePerLiveTransfer": "$72",
-        "totalQualifiedLeadPrice": "$5,760",
-        "totalPlatformPrice": "$799",
-        "finalPackagePrice": "$6,559"
-     }
+    {
+      "plan": "Qualified 20",
+      "leadsPerMonth": 20,
+      "pricePerLiveTransfer": "$79",
+      "totalQualifiedLeadPrice": "$1,580",
+      "totalPlatformPrice": "$299",
+      "finalPackagePrice": "$1,879"
+    },
+    {
+      "plan": "Qualified 40",
+      "leadsPerMonth": 40,
+      "pricePerLiveTransfer": "$77",
+      "totalQualifiedLeadPrice": "$3,080",
+      "totalPlatformPrice": "$599",
+      "finalPackagePrice": "$3,679"
+    },
+    {
+      "plan": "Qualified 80",
+      "leadsPerMonth": 80,
+      "pricePerLiveTransfer": "$72",
+      "totalQualifiedLeadPrice": "$5,760",
+      "totalPlatformPrice": "$799",
+      "finalPackagePrice": "$6,559"
+    }
   ],
   "$300K-$400K": [
-     {
-        "plan": "Qualified 20",
-        "leadsPerMonth": 20,
-        "pricePerLiveTransfer": "$99",
-        "totalQualifiedLeadPrice": "$1,980",
-        "totalPlatformPrice": "$299",
-        "finalPackagePrice": "$2,279"
-     },
-     {
-        "plan": "Qualified 40",
-        "leadsPerMonth": 40,
-        "pricePerLiveTransfer": "$96",
-        "totalQualifiedLeadPrice": "$3,840",
-        "totalPlatformPrice": "$599",
-        "finalPackagePrice": "$4,439"
-     },
-     {
-        "plan": "Qualified 60",
-        "leadsPerMonth": 60,
-        "pricePerLiveTransfer": "$93",
-        "totalQualifiedLeadPrice": "$5,580",
-        "totalPlatformPrice": "$699",
-        "finalPackagePrice": "$6,279"
-     },
-     {
-        "plan": "Qualified 80",
-        "leadsPerMonth": 80,
-        "pricePerLiveTransfer": "$90",
-        "totalQualifiedLeadPrice": "$7,200",
-        "totalPlatformPrice": "$799",
-        "finalPackagePrice": "$7,999"
-     }
+    {
+      "plan": "Qualified 20",
+      "leadsPerMonth": 20,
+      "pricePerLiveTransfer": "$99",
+      "totalQualifiedLeadPrice": "$1,980",
+      "totalPlatformPrice": "$299",
+      "finalPackagePrice": "$2,279"
+    },
+    {
+      "plan": "Qualified 40",
+      "leadsPerMonth": 40,
+      "pricePerLiveTransfer": "$96",
+      "totalQualifiedLeadPrice": "$3,840",
+      "totalPlatformPrice": "$599",
+      "finalPackagePrice": "$4,439"
+    },
+    {
+      "plan": "Qualified 80",
+      "leadsPerMonth": 80,
+      "pricePerLiveTransfer": "$90",
+      "totalQualifiedLeadPrice": "$7,200",
+      "totalPlatformPrice": "$799",
+      "finalPackagePrice": "$7,999"
+    }
   ],
   "$400K-$500K": [
-     {
-        "plan": "Qualified 20",
-        "leadsPerMonth": 20,
-        "pricePerLiveTransfer": "$109",
-        "totalQualifiedLeadPrice": "$2,180",
-        "totalPlatformPrice": "$299",
-        "finalPackagePrice": "$2,479"
-     },
-     {
-        "plan": "Qualified 40",
-        "leadsPerMonth": 40,
-        "pricePerLiveTransfer": "$106",
-        "totalQualifiedLeadPrice": "$4,240",
-        "totalPlatformPrice": "$599",
-        "finalPackagePrice": "$4,839"
-     },
-     {
-        "plan": "Qualified 60",
-        "leadsPerMonth": 60,
-        "pricePerLiveTransfer": "$102",
-        "totalQualifiedLeadPrice": "$6,120",
-        "totalPlatformPrice": "$699",
-        "finalPackagePrice": "$6,819"
-     },
-     {
-        "plan": "Qualified 80",
-        "leadsPerMonth": 80,
-        "pricePerLiveTransfer": "$99",
-        "totalQualifiedLeadPrice": "$7,920",
-        "totalPlatformPrice": "$799",
-        "finalPackagePrice": "$8,719"
-     }
+    {
+      "plan": "Qualified 20",
+      "leadsPerMonth": 20,
+      "pricePerLiveTransfer": "$109",
+      "totalQualifiedLeadPrice": "$2,180",
+      "totalPlatformPrice": "$299",
+      "finalPackagePrice": "$2,479"
+    },
+    {
+      "plan": "Qualified 40",
+      "leadsPerMonth": 40,
+      "pricePerLiveTransfer": "$106",
+      "totalQualifiedLeadPrice": "$4,240",
+      "totalPlatformPrice": "$599",
+      "finalPackagePrice": "$4,839"
+    },
+    {
+      "plan": "Qualified 80",
+      "leadsPerMonth": 80,
+      "pricePerLiveTransfer": "$99",
+      "totalQualifiedLeadPrice": "$7,920",
+      "totalPlatformPrice": "$799",
+      "finalPackagePrice": "$8,719"
+    }
   ],
   "$500K+": [
-     {
-        "plan": "Qualified 20",
-        "leadsPerMonth": 20,
-        "pricePerLiveTransfer": "$129",
-        "totalQualifiedLeadPrice": "$2,580",
-        "totalPlatformPrice": "$299",
-        "finalPackagePrice": "$2,879"
-     },
-     {
-        "plan": "Qualified 40",
-        "leadsPerMonth": 40,
-        "pricePerLiveTransfer": "$125",
-        "totalQualifiedLeadPrice": "$5,000",
-        "totalPlatformPrice": "$599",
-        "finalPackagePrice": "$5,599"
-     },
-     {
-        "plan": "Qualified 60",
-        "leadsPerMonth": 60,
-        "pricePerLiveTransfer": "$121",
-        "totalQualifiedLeadPrice": "$7,260",
-        "totalPlatformPrice": "$699",
-        "finalPackagePrice": "$7,959"
-     },
-     {
-        "plan": "Qualified 80",
-        "leadsPerMonth": 80,
-        "pricePerLiveTransfer": "$117",
-        "totalQualifiedLeadPrice": "$9,360",
-        "totalPlatformPrice": "$799",
-        "finalPackagePrice": "$10,159"
-     }
+    {
+      "plan": "Qualified 20",
+      "leadsPerMonth": 20,
+      "pricePerLiveTransfer": "$129",
+      "totalQualifiedLeadPrice": "$2,580",
+      "totalPlatformPrice": "$299",
+      "finalPackagePrice": "$2,879"
+    },
+    {
+      "plan": "Qualified 40",
+      "leadsPerMonth": 40,
+      "pricePerLiveTransfer": "$125",
+      "totalQualifiedLeadPrice": "$5,000",
+      "totalPlatformPrice": "$599",
+      "finalPackagePrice": "$5,599"
+    },
+    {
+      "plan": "Qualified 80",
+      "leadsPerMonth": 80,
+      "pricePerLiveTransfer": "$117",
+      "totalQualifiedLeadPrice": "$9,360",
+      "totalPlatformPrice": "$799",
+      "finalPackagePrice": "$10,159"
+    }
   ]
 }
