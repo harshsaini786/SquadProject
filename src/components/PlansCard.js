@@ -10,7 +10,7 @@ export default function PlansCard({ data, handleClick }) {
     </div>
       <div className="plansButtons">{data.plan}</div>
       <div className="perLeadPrice">{data.pricePerLiveTransfer}</div>
-      <div>Per Qualifies Lead</div>
+      <div>Per Qualified Lead</div>
       <hr className="hLineStyle" />
       <div>Qualified Leads Per Month</div>
       <div>{data.leadsPerMonth}</div>
